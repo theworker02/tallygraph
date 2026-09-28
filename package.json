@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tallygraph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tally encode/decode helpers for graph payloads in pipelines.",
+  "bin": {
+    "tallygraph": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tallygraph.git"
+  },
+  "homepage": "https://theworker02.github.io/tallygraph/",
+  "keywords": [
+    "tally",
+    "graph",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
